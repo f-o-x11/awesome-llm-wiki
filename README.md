@@ -216,6 +216,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   architectural guide breaking down five enterprise company brain architectures: enterprise search, document RAG,
   memory APIs, live MCP tool connectors, and agent-written Markdown wikis. Evaluates synthesis timing, token economics,
   multi-tenant failure modes, and schema design for shared organizational vaults.
+- [Company Brain: Why Most Companies Have Data But No Memory (Ashwin Gopinath)](https://nanothoughts.substack.com/p/company-brain-why-most-companies) - An
+  architectural essay exploring the structural requirements of enterprise company brains. Formulates a four-layer
+  framework (factual memory, human communication, context graphs, and action coordination) to distinguish passive search
+  from living organizational memory that preserves decision rationale, tradeoffs, and intent for autonomous agents.
 - [From Obsidian Vault to Enterprise Company Brain: Where Agents Write, Branch and Merge (Simon Späti on ssp.sh)](https://www.ssp.sh/blog/from-obsidian-to-enterprise-company-brain/) ([GitHub](https://github.com/ssp-data/company-brain-crm)) - An
   architectural essay and demo comparing personal Obsidian vaults to enterprise company brains. Details how to adapt
   Karpathy's LLM Wiki pattern to multi-agent organizations using typed graph schemas as data contracts, open columnar
