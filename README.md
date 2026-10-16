@@ -212,6 +212,10 @@ Inspired by a paradigm shift in software development engineering, this architect
 
 *Articles exploring scaling limits, context-window optimizations, concurrency, access governance, and enterprise architectures.*
 
+- [Company Brain, Part 2: Factual Memory (Ashwin Gopinath)](https://nanothoughts.substack.com/p/company-brain-part-2-factual-memory) - An
+  architectural essay examining factual memory as the foundational layer of enterprise company brains. Argues against
+  centralized repositories and naive RAG in favor of a semantic file system that maps artifact relationships, supports
+  emergent memory from individual to team levels, and personalizes proactive context across IC, manager, and CEO roles.
 - [Company Brain: What It Is and 5 Ways Teams Build One (Dexio)](https://dexio.wiki/guides/company-brain/) - An
   architectural guide breaking down five enterprise company brain architectures: enterprise search, document RAG,
   memory APIs, live MCP tool connectors, and agent-written Markdown wikis. Evaluates synthesis timing, token economics,
