@@ -220,6 +220,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   architectural essay exploring interaction memory as organizational chain-of-thought. Examines how to capture unwritten
   rationale, fragile assumptions, and implied commitments from human conversations into an evolving context graph,
   using domain ontologies to surface conflicting team assumptions and prevent context loss for autonomous agents.
+- [Company Brain, Part 4: Action Memory (Ashwin Gopinath)](https://nanothoughts.substack.com/p/company-brain-part-4-action-memory) - An
+  architectural essay exploring action memory as the operational layer of enterprise company brains. Deconstructs action
+  into four components—procedural, trigger, execution, and outcome memory—arguing that 'doing nothing is a first-class
+  action' and outlining contextual guardrails that govern when autonomous agents should act, wait, or escalate.
 - [Company Brain: What It Is and 5 Ways Teams Build One (Dexio)](https://dexio.wiki/guides/company-brain/) - An
   architectural guide breaking down five enterprise company brain architectures: enterprise search, document RAG,
   memory APIs, live MCP tool connectors, and agent-written Markdown wikis. Evaluates synthesis timing, token economics,
