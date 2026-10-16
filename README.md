@@ -644,6 +644,9 @@ raw documents and compile structured Markdown/JSONL wikis.*
 *CLI tools, generation pipelines, and execution harnesses built specifically to compile, maintain, and validate
 Google Open Knowledge Format (OKF) bundles.*
 
+- [Cartographer (BeppeTemp)](https://github.com/BeppeTemp/cartographer) ([Website](https://beppetemp.github.io/cartographer/)) - An MCP server
+  that lets a team's coding agents maintain a shared OKF wiki only through validated tools, with Git history, lint,
+  link checks, and a 3D web atlas.
 - [engram CLI (jeromeetienne)](https://github.com/jeromeetienne/engram) - A CLI utility for managing OKF wikis, providing validation, indexing, and link checking for Claude Code agents.
 - [llm-wiki (dotdrelle)](https://github.com/dotdrelle/llm-wiki) - A local-first Markdown knowledge engine and CLI
   implementing the Karpathy LLM Wiki pattern and Google Open Knowledge Format (OKF). Ingests raw sources into
