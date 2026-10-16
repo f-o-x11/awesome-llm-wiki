@@ -216,6 +216,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   architectural essay examining factual memory as the foundational layer of enterprise company brains. Argues against
   centralized repositories and naive RAG in favor of a semantic file system that maps artifact relationships, supports
   emergent memory from individual to team levels, and personalizes proactive context across IC, manager, and CEO roles.
+- [Company Brain, Part 3: Interaction Memory (Ashwin Gopinath)](https://nanothoughts.substack.com/p/company-brain-part-3-interaction) - An
+  architectural essay exploring interaction memory as organizational chain-of-thought. Examines how to capture unwritten
+  rationale, fragile assumptions, and implied commitments from human conversations into an evolving context graph,
+  using domain ontologies to surface conflicting team assumptions and prevent context loss for autonomous agents.
 - [Company Brain: What It Is and 5 Ways Teams Build One (Dexio)](https://dexio.wiki/guides/company-brain/) - An
   architectural guide breaking down five enterprise company brain architectures: enterprise search, document RAG,
   memory APIs, live MCP tool connectors, and agent-written Markdown wikis. Evaluates synthesis timing, token economics,
