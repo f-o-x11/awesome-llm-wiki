@@ -417,6 +417,11 @@ performance, schema rigor, and retrieval accuracy.*
   Stress-tests chapter-by-chapter ingestion and contradiction reconciliation on *The Hound of the Baskervilles*,
   utilizing a CLI tool (`wiki_tool.py`) for catalog indexing, metadata validation, and orphan-page linting.
 - [When is the Karpathy Wiki Better than RAG (Learning Aloud Blog)](https://learningaloud.com/blog/2026/07/27/when-is-the-karpathy-wiki-better-than-rag/) - A follow-up case study comparing pre-compiled local wiki query outputs against direct cloud RAG query results.
+- [Why Your AI Agent Needs a Wiki (And Why RAG Isn't Enough) (Eyal)](https://eyal454160.substack.com/p/why-your-ai-agent-needs-a-wiki-and) - An
+  empirical case study benchmarking Karpathy's LLM Wiki against raw file RAG across six tournament rounds on a 134-file
+  production codebase (~50K LOC). Highlights how pre-synthesized wikis dominate cross-file architecture tracing
+  (94 vs. 84) and retain deleted historical context, while a hybrid pipeline (wiki context plus code verification)
+  swept every tournament across both architectural and exact code retrieval questions.
 
 ## Books and Ebooks
 
