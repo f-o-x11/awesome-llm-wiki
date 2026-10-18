@@ -126,6 +126,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   between machine compilation and human curation in LLM Wikis. Argues that a knowledge vault should serve as a
   "biography of understanding" rather than a database, suggesting that humans must retain responsibility for weighing
   ideas and tracking perspective changes.
+- [The LLM Wiki: Stop Retrieving, Start Compounding (Rohit Ghumare)](https://aiengineeringfromscratch.com/blog/the-llm-wiki) - A
+  conceptual primer contrasting stateless vector retrieval with compounding compiled markdown wikis. Explains the
+  three-layer architecture (sources, wiki, schema), the Ingest-Query-Lint execution cycle with query back-filing, the
+  compiler mental model (Obsidian as IDE, LLM as programmer), and the historical connection to Vannevar Bush's Memex.
 - [The Real Second Brain: An Autonomous Knowledge Engine](https://vasileioszografos.substack.com/p/the-real-second-brain-an-autonomous) - An architectural essay defining the paradigm shift from ephemeral chat interfaces to persistent, agent-driven local wikis. It details how flat-file markdown vaults serve as a deterministic long-term memory layer for autonomous daemons, allowing collaborative, human-in-the-loop knowledge compilation and state management.
 - [The Schema Is the Product: An Architectural Reading of Karpathy's LLM Wiki (Han Heloir Yan on Data Science Collective)](https://medium.com/data-science-collective/the-schema-is-the-product-an-architectural-reading-of-karpathys-llm-wiki-abf2fbb838c8) - An
   architectural analysis mapping the LLM Wiki pattern to a compiler architecture: raw sources as source code, ingestion
