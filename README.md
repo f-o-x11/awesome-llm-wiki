@@ -250,6 +250,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   Details access governance via scoped directory permissions, read-only external mounts (Google Drive, Notion),
   background cron maintenance loops, and agent-generated adaptive HTML interfaces using Cabinet.
 - [Karpathy's LLM Wiki v2: What to Keep](https://theaioperator.io/p/karpathys-llm-wiki-v2-what-to-keep) - A critical architectural teardown outlining the evolution of the LLM Wiki design pattern. Details the necessary shift from manual workflows to parallel background agent pipelines, explains how to replace heavy index rewrites with vector mapping arrays, and demonstrates how to implement a targeted JSON pre-routing layer to keep API context costs minimal as local vaults grow past thousands of nodes.
+- [LLM Wiki v2: What Breaks at Scale (Rohit Ghumare)](https://aiengineeringfromscratch.com/blog/llm-wiki-v2) - An
+  architectural guide examining how flat markdown wikis degrade across thousands of sessions. Details memory lifecycle
+  mechanics (confidence decay, Ebbinghaus retention curves, supersession), multi-tier consolidation, typed knowledge
+  graphs, event-driven hooks, and hybrid search (BM25, dense vector, and graph traversal fused via RRF).
 - [LLM Wiki: Karpathy's Pattern, Built for a Paying Client (Adam Sandler on The Viable Edge)](https://www.viableedge.com/blog/llm-wiki) - An
   architectural guide exploring how to adapt Karpathy's LLM Wiki pattern and Claude Code for client delivery. Details
   four key shifts for enterprise company brains: resolving conflicting client sources with provenance precedence rules,
