@@ -293,6 +293,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   and prompt template for domain practitioners and citizen developers to build a Karpathy LLM Wiki using Claude.
   Details a three-layer directory layout, a complete ready-to-run CLAUDE.md schema prompt, a three-session onboarding
   workflow, and starter kits for insurance, finance, and automation domains.
+- [Building an LLM Wiki with OpenKnowledge: Practical Operations (maryo1994matsutake94)](https://medium.com/@maryo1994matsutake94/building-an-llm-wiki-with-openknowledge-practical-operations-7d5a6c9444cb) - A practical
+  implementation walkthrough on building a local-first Karpathy LLM Wiki using OpenKnowledge and AI coding agents.
+  Covers schema setup (`external-sources/`, `research/`, `articles/`, `index.md`, `log.md`), MCP bridging to Claude
+  Code and Cursor, and executing automated ingestion, cross-linking synthesis, and continuous vault linting passes.
 - [Building an LLM Wiki, Part 1 (Erik Evenson Blog)](https://www.erikevenson.net/building-an-llm-wiki-part-1.html) - A guide explaining how to implement the basic Karpathy pattern using Obsidian, its Local REST API, and Claude Code.
 - [Building an LLM Wiki, Part 2 (Erik Evenson Blog)](https://www.erikevenson.net/building-an-llm-wiki-part-2.html) - An article detailing schema linting, staleness detection, contradiction handling, and search testing for LLM Wikis.
 - [Compiling knowledge, not retrieving it (Roan Brasil Monteiro)](https://medium.com/@roanmonteiro/compiling-knowledge-not-retrieving-it-a-hands-on-deep-dive-into-llm-wiki-compiler-a495523a8085) - A code-level implementation guide detailing the software architecture of the `llm-wiki-compiler` engine. Walks through the step-by-step orchestration of a multi-model text compilation loop, local workspace linting rules, and inline source-provenance tracking without vector databases.
