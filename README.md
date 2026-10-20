@@ -201,6 +201,11 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Build a Second Brain for Your AI Coding Agents (Rick Hightower on Spillwave)](https://pub.spillwave.com/build-a-second-brain-for-your-ai-coding-agents-create-self-improving-loops-and-master-graph-64a874a7ba88) - An architectural guide on structuring persistent codebase memory for coding agents. Details harness engineering, deterministic write boundaries, tiered context disclosure, and graph-based self-improving loops to eliminate decision re-litigation and quality collapse.
 - [LLM Wiki vs RAG for Internal Codebase Memory: Which Approach Should You Use? (MindStudio Blog)](https://www.mindstudio.ai/blog/llm-wiki-vs-rag-internal-codebase-memory) - A comparative guide analyzing the tradeoffs between RAG and flat-file LLM Wikis for codebase memory and agent context routing.
 - [OpenWiki 0.2 brings OKF to codebase documentation (LangChain Blog)](https://www.langchain.com/blog/openwiki-0-2-adds-okf-support) - The official announcement of OpenWiki 0.2, detailing its integration of the Open Knowledge Format (OKF) specification.
+- [Superwiki: An LLM Wiki and Task Tracker for Claude Code, Codex, and Copilot CLI (Mehmet Şerefoğlu on Medium)](https://mehmetserefoglu.medium.com/superwiki-an-llm-wiki-and-task-tracker-for-claude-code-codex-and-copilot-cli-967d2681ad98) ([GitHub](https://github.com/mhmtsrfglu/superwiki)) - An
+  architectural article detailing Superwiki, an open-source agent skill suite transforming a repository's `docs/` folder
+  into an agent-maintained Markdown wiki and task tracker. Outlines directory structures (`index.md`, `log.md`, `raw/`,
+  `wiki/`, `tasks/`, `plans/`), persistent `AGENTS.md` steering rules, subagent verification runs to minimize context
+  costs, and integrations with Obsidian and an interactive HTML viewer.
 - [The Seven-Layer Memory Graph for Coding Agents (Rajat S. Lakhina on Medium)](https://medium.com/@er.rajatlakhina/the-seven-layer-memory-graph-for-coding-agents-how-claude-code-graphify-obsidian-and-karpathys-798351961d0b) - An
   architectural article analyzing seven failure modes of memory loss in AI coding agents and proposing a layered
   memory graph. Synthesizes Claude Code session contexts, Graphify AST structural code maps, persistent Obsidian
