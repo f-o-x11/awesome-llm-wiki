@@ -622,6 +622,12 @@ that compile multi-domain life data (health, finance, calendar, documents) into 
   and a standalone `@llmwiki/core` MCP tool server.
 - [llm-knowledge-bases (rvk7895)](https://github.com/rvk7895/llm-knowledge-bases) - An open-source Claude Code plugin and skill suite that compiles raw multi-modal source documents (papers, YouTube transcripts, images, datasets) into an interlinked Obsidian wiki. Features three query depth levels (Quick, Standard, and Deep multi-agent research), artifact export for Marp slides and charts, and automated vault health linters.
 - [Matryca Plumber](https://github.com/MarcoPorcellato/matryca-plumber) - An enterprise-grade, local-first background AI maintenance daemon and native FastMCP server for Logseq graphs. Directly handles direct Markdown AST block mutations with integrated Optimistic Concurrency Control, featuring background dangling link healing, zero-LLM link rot lints, a local cockpit UI, and deep developer optimization for Claude Code.
+- [Nimbalyst Wiki](https://github.com/nimbalyst/nimbalyst-wiki) ([Website](https://nimbalyst.com/wiki/)) - An
+  open-source Claude Code and Codex plugin in which the agent writes a local wiki for the person directing it. At the
+  end of a session it records decisions (who made them, when, and the rejected option) and open questions with an
+  owner in the pages they affect. It intentionally includes only the important things: handed to a person or an
+  agent, the wiki should be enough to rebuild the project's current state. Pages can name the code paths they cover,
+  and a local browser view edits Markdown, drawings, mind maps, spreadsheets, mockups, and interactive HTML pages.
 - [SiderMem](https://www.sidermem.com/) ([Chrome Web Store](https://chromewebstore.google.com/detail/sidermem/cmknanohkhlpjfofleajpmjljpepbgeo) / [npm](https://www.npmjs.com/package/sidermem-cli)) - A personal
   knowledge base Chrome extension and companion CLI that captures web pages, notes, files, and multi-model AI chats.
   Automatically extracts entities and concepts to compile a connected personal wiki with interactive graph views,
