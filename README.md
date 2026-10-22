@@ -832,6 +832,10 @@ featuring interactive terminal review wizards, visual graphs, and vault curation
 - [Agent Wikis](https://agentwikis.com/) - A production-deployed knowledge platform built around the "Git as a database" flat-file pattern. It hosts public, human-readable wikis that anyone can browse for free to learn from, while serving the underlying raw markdown via MCP for autonomous agent ingestion. Features a closed-loop engine that tracks missed agent queries to fuel automated research and patching workflows behind human-gated commit approvals.
 - [AutoWiki (Factory)](https://factory.ai/news/wiki) - An enterprise-grade codebase wiki compilation platform that automatically generates structured Markdown wikis from repositories and syncs them to Git-backed wikis.
 - [Basic Memory](https://basicmemory.com/) ([GitHub](https://github.com/basicmachines-co/basic-memory)) - A cloud-hosted (SaaS) or local-first (AGPL-3.0) persistent memory platform and MCP server. Syncs Obsidian-compatible Markdown files across web, mobile, and IDEs, utilizing SQLite/Neon PostgreSQL and Milvus backends to provide hybrid semantic search, cross-encoder reranking, and official plugins for Claude Code, Hermes, and OpenClaw.
+- [deed.page](https://deed.page/) ([Docs](https://deed.page/docs) / [Skill](https://github.com/f-o-x11/deed-page-skill)) - A
+  static hosting service that agents publish to over a REST API or a remote MCP server. One request uploads an HTML
+  file, a folder or a tarball, such as a wiki compiled to HTML, and returns a permanent `https://{slug}.deed.page/` URL
+  without an account. Each publish is kept as a version that can be restored. Free plan of 25 sites at 25 MB each.
 - [Dexio](https://dexio.wiki/) ([GitHub](https://github.com/dexio-wiki/dexio)) - A hosted and self-hostable
   (AGPL-3.0) wiki that several agents share over MCP from any machine. Agents search, read, write and edit Markdown
   pages with wikilinks and YAML frontmatter, and a write can require the version the agent last read so concurrent
